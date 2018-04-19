@@ -40,22 +40,37 @@ The notes for the folders:
 * The folder '.\util' contains some scripts used in the main functions.
 * main functions
 	* main_running.m is the main function to run your tracker
+	
         -put the source codes in ./trackers/ according to the source codes of Staple tracker
+	
         -modify the dataset path in ./main_running.m    
+	
         -input your method name in ./util/configTrackers.m
+	
         -the result with mat format are saved in ./results/results_OPE/
+	
 
 	* perfPlot.m is the main function to evaluate your tracker based on the results with mat or txt format. Besides, the visual attributes are defined as same as these in [2].
+	
         -modify the dataset path in ./perfPlot.m (re-evaluate the results by setting the flag "reEvalFlag = 1")    
+	
         -select the tracker names in ./util/configTrackers.m
+	
         -select the rankingType e.g., AUC and threshold
+	
         -check the tracking results in ./results/results_OPE/
+	
         -the figures are saved in ./figs/overall/
 
+
 	* drawResultBB.m is the main function to show your results
+	
         -modify the dataset path in ./drawResultBB.m  
+	
         -select the tracker names in ./util/configTrackers.m
+	
         -check the tracking results in ./results/results_OPE/
+	
         -the visual results are saved in ./tmp/OPE/	
 
     
