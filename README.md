@@ -1,9 +1,8 @@
 # VisDrone2018-SOT-tooklit
 Single Object Tracking tooklit for VisDrone2018
 
-===================================================================
+
 Introduction
-===================================================================
 
 This is the documentation of the VisDrone2018 competitions development kit for single-object tracking (SOT) challenge.
 
@@ -12,9 +11,8 @@ The code is tested on the Windows 10 and macOS Sierra 10.12.6 systems, with the 
 
 If you have any questions, please contact us (email:tju.drone.vision@gmail.com).
 
-===================================================================
+
 Dataset
-===================================================================
 
 For SOT competition, there are three sets of data and labels: training data, validation data, 
 and test-challenge data. There is no overlap between the three sets. 
@@ -36,9 +34,8 @@ The link for downloading the data can be obtained by registering for the challen
 
     http://www.aiskyeye.com/
  
-===================================================================
+
 Evaluation routines
-===================================================================
 
 The notes for the folders:
 * The tracking results will be stored in the folder '.\results'.
@@ -65,9 +62,8 @@ The notes for the folders:
         -the visual results are saved in ./tmp/OPE/	
 
     
-===================================================================
 SOT submission format
-===================================================================
+
 
 Submission of the results will consist of TXT files with one line per predicted object or MAT files as same as that in [1].
 For txt submission, it looks as follows:
@@ -95,9 +91,8 @@ Index	   Variable	                                   Description
 
 The sample submission of Staple tracker can be found in our website.
 
-====================================================================
+
 References
-====================================================================
 [1] Y. Wu, J. Lim, and M.-H. Yang, "Online Object Tracking: A Benchmark", in CVPR 2013.
 [2] M. Mueller, N. Smith, B. Ghanem, "A Benchmark and Simulator for UAV Tracking", in ECCV 2016.
 [3] Pengfei Zhu, Longyin Wen, Xiao Bian, Haibing Ling and Qinghua Hu arXiv 2018. Vision Meets Drones: A Challenge.
