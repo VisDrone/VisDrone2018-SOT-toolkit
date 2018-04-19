@@ -118,6 +118,7 @@ The sample submission of Staple tracker can be found in our website.
 
 
 References
+
 [1] Y. Wu, J. Lim, and M.-H. Yang, "Online Object Tracking: A Benchmark", in CVPR 2013.
 
 [2] M. Mueller, N. Smith, B. Ghanem, "A Benchmark and Simulator for UAV Tracking", in ECCV 2016.
