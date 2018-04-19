@@ -67,6 +67,7 @@ For txt submission, it looks as follows:
 
 <bbox_left>,<bbox_top>,<bbox_width>,<bbox_height>
 
+
 Position	  Name	                                    Description
    1	   <bbox_left>	     The x coordinate of the top-left corner of the predicted bounding box
    
@@ -80,6 +81,7 @@ Position	  Name	                                    Description
 For mat submission, it looks as follows:
 
 < results: {type = 'rect', res, fps, len, annoBegin = 1, startFrame = 1} >
+
 
 Index	   Variable	                                   Description
   1	      <type>	        The representation type of the predicted bounding box representation. It should be set as 'rect'.
