@@ -69,8 +69,11 @@ For txt submission, it looks as follows:
 
 Position	  Name	                                    Description
    1	   <bbox_left>	     The x coordinate of the top-left corner of the predicted bounding box
+   
    2	   <bbox_top>	       The y coordinate of the top-left corner of the predicted object bounding box
+   
    3	  <bbox_width>	     The width in pixels of the predicted object bounding box
+   
    4	  <bbox_height>	     The height in pixels of the predicted object bounding box
 
 
@@ -80,10 +83,15 @@ For mat submission, it looks as follows:
 
 Index	   Variable	                                   Description
   1	      <type>	        The representation type of the predicted bounding box representation. It should be set as 'rect'.
+	
   2	      <res>	          The tracking results in the video clip. Notably, each row includes the frame index, the x and y coordinates of the top-left corner of the predicted bounding box, and the width and height in pixels of the predicted bounding box.
+	
   3	      <fps>	          The running speed of the evaluated tracker, namely frame-per-second
+	
   4	      <len>	          The length of the evaluated sequence
+	
   5	   <annoBegin>	      The start frame index for tracking. The default value is 1.
+	
   6	   <startFrame>	      The start frame index of the video. The default value is 1.
 
 The sample submission of Staple tracker can be found in our website.
