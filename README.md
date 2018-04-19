@@ -65,6 +65,7 @@ SOT submission format
 Submission of the results will consist of TXT files with one line per predicted object or MAT files as same as that in [1].
 For txt submission, it looks as follows:
 
+
 <bbox_left>,<bbox_top>,<bbox_width>,<bbox_height>
 
 
@@ -84,6 +85,7 @@ For mat submission, it looks as follows:
 
 
 Index	   Variable	                                   Description
+
   1	      <type>	        The representation type of the predicted bounding box representation. It should be set as 'rect'.
 	
   2	      <res>	          The tracking results in the video clip. Notably, each row includes the frame index, the x and y coordinates of the top-left corner of the predicted bounding box, and the width and height in pixels of the predicted bounding box.
@@ -95,6 +97,7 @@ Index	   Variable	                                   Description
   5	   <annoBegin>	      The start frame index for tracking. The default value is 1.
 	
   6	   <startFrame>	      The start frame index of the video. The default value is 1.
+	
 
 The sample submission of Staple tracker can be found in our website.
 
