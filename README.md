@@ -25,10 +25,7 @@ and test-challenge data. There is no overlap between the three sets.
                      69,941 frames          7,046 frames           29,367 frames
     ---------------------------------------------------------------------------------------
     
-For an input video sequence and the initial bounding box of the target object in the first frame, the challenge requires a participating algorithm 
-to locate the target bounding boxes in the subsequent video frames. The objects to be tracked are of various types including pedestrians, cars, buses,
-and animals. We manually annotate the bounding boxes of different objects in each video frame. Annotations on the training and validation sets are publicly
-available.
+For an input video sequence and the initial bounding box of the target object in the first frame, the challenge requires a participating algorithm to locate the target bounding boxes in the subsequent video frames. The objects to be tracked are of various types including pedestrians, cars, buses, and animals. We manually annotate the bounding boxes of different objects in each video frame. Annotations on the training and validation sets are publicly available.
 
 The link for downloading the data can be obtained by registering for the challenge at
 
