@@ -32,7 +32,7 @@ The link for downloading the data can be obtained by registering for the challen
     http://www.aiskyeye.com/
  
 
-Evaluation routines
+Evaluation Routines
 
 The notes for the folders:
 * The tracking results will be stored in the folder '.\results'.
@@ -73,6 +73,7 @@ The notes for the folders:
        -the visual results are saved in ./tmp/OPE/	
     
     
+    
 SOT submission format
 
 Submission of the results will consist of TXT files with one line per predicted object or MAT files as same as that in [1].
@@ -82,14 +83,14 @@ For txt submission, it looks as follows:
 
 
        Name	                                Description
-    ---------------------------------------------------------------------------------------------
-    <bbox_left>	    The x coordinate of the top-left corner of the predicted bounding box.
+    --------------------------------------------------------------------------------------------------
+      <bbox_left>	    The x coordinate of the top-left corner of the predicted bounding box
    
-    <bbox_top>	    The y coordinate of the top-left corner of the predicted object bounding box.
-   
-    <bbox_width>    The width in pixels of the predicted object bounding box.
-   
-    <bbox_height>   The height in pixels of the predicted object bounding box.
+      <bbox_top>	    The y coordinate of the top-left corner of the predicted object bounding box
+      
+      <bbox_width>      The width in pixels of the predicted object bounding box 
+      
+      <bbox_height>     The height in pixels of the predicted object bounding box.
 
 
 For mat submission, it looks as follows:
@@ -116,6 +117,7 @@ For mat submission, it looks as follows:
 	
 	
 The sample submission of the tracker can be found in our website.
+
 
 
 References
