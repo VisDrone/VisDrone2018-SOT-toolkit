@@ -45,7 +45,7 @@ The notes for the folders:
 	
        -modify the dataset path in ./main_running.m    
 	
-       -input your method name in ./util/configTrackers.m
+       -input the method named in ./util/configTrackers.m
 	
        -the results with mat format are saved in ./results/results_OPE/
 	
@@ -54,7 +54,7 @@ The notes for the folders:
 	
        -modify the dataset path in ./perfPlot.m (re-evaluate the results by setting the flag "reEvalFlag = 1")    
 	
-       -select the tracker names in ./util/configTrackers.m
+       -select a tracker named in ./util/configTrackers.m
 	
        -select the rankingType e.g., AUC and threshold
 	
@@ -62,11 +62,11 @@ The notes for the folders:
 	
        -the figures are saved in ./figs/overall/
 
-     * drawResultBB.m is the main function to show your results
+     * drawResultBB.m is the main function used to show the results
 	
        -modify the dataset path in ./drawResultBB.m  
 	
-       -select the tracker names in ./util/configTrackers.m
+       -select a tracker named in ./util/configTrackers.m
 	
        -check the tracking results in ./results/results_OPE/
 	
@@ -112,8 +112,8 @@ For mat submission, it looks as follows:
        <len>	     The length of the evaluated sequence.
 	
     <annoBegin>	     The start frame index for tracking. The default value is 1.
-	
-    <startFrame>     The start frame index of the video. The default value is 1.
+    
+    <startFrame>         The start frame index of the video. The default value is 1.
 	
 	
 The sample submission of the tracker can be found in our website.
