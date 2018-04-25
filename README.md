@@ -11,20 +11,35 @@ The code is tested on the Windows 10 and macOS Sierra 10.12.6 systems, with the 
 
 If you have any questions, please contact us (email:tju.drone.vision@gmail.com).
 
+Citation
+
+If you use our toolkit or dataset, please cite our paper as follows:
+
+@article{zhuvisdrone2018,
+
+    title={Vision Meets Drones: A Challenge},
+
+    author={Zhu, Pengfei and Wen, Longyin and Bian, Xiao and Haibin, Ling and Hu, Qinghua},
+
+    journal={arXiv preprint:1804.07437},
+
+    year={2018}
+
+}
 
 Dataset
 
 For SOT competition, there are three sets of data and labels: training data, validation data, 
 and test-challenge data. There is no overlap between the three sets. 
 
-                                        Number of snippets
-    --------------------------------------------------------------------------------
-    Dataset           Training              Validation            Test-Challenge
-    --------------------------------------------------------------------------------
-    SOT               86 clips               11 clips                35 clips
-                     69,941 frames          7,046 frames           29,367 frames
-    --------------------------------------------------------------------------------
-    
+                                                         Number of snippets
+    ----------------------------------------------------------------------------------------------
+    Dataset                            Training              Validation            Test-Challenge
+    ----------------------------------------------------------------------------------------------
+    Signle object tracking         86 clips                  11 clips               35 clips
+                                  69,941 frames              7,046 frames         29,367 frames
+    ----------------------------------------------------------------------------------------------
+
 For an input video sequence and the initial bounding box of the target object in the first frame, the challenge requires a participating algorithm to locate the target bounding boxes in the subsequent video frames. The objects to be tracked are of various types including pedestrians, cars, and animals. We manually annotate the bounding boxes of different objects in each video frame. Annotations on the training and validation sets are publicly available.
 
 The link for downloading the data can be obtained by registering for the challenge at
@@ -126,4 +141,8 @@ References
 
 [2] M. Mueller, N. Smith, B. Ghanem, "A Benchmark and Simulator for UAV Tracking", in ECCV 2016.
 
-[3] Pengfei Zhu, Longyin Wen, Xiao Bian, Haibing Ling and Qinghua Hu arXiv 2018. Vision Meets Drones: A Challenge.
+-----------------------------------------------------------------
+Version history
+
+1.0.0 - Apr 19, 2018
+  - Initial release.
