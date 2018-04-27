@@ -142,7 +142,7 @@ References
 [2] M. Mueller, N. Smith, B. Ghanem, "A Benchmark and Simulator for UAV Tracking", in ECCV 2016.
 
 -----------------------------------------------------------------
-Version history
+Version History
 
 1.0.0 - Apr 19, 2018
   - Initial release.
