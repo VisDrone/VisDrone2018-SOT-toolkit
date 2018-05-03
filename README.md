@@ -144,5 +144,8 @@ References
 -----------------------------------------------------------------
 Version History
 
+1.0.1 - May 3, 2018
+  - Fix the bug in the genPerfMat function.
+  
 1.0.0 - Apr 19, 2018
   - Initial release.
