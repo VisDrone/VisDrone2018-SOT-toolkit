@@ -1,4 +1,4 @@
-function genPerfMat(datasetPath, seqs, trackers, evalType, perfMatPath)
+function genPerfMat(datasetPath, seqs, trackers, evalType, nameTrkAll, perfMatPath)
 
 pathAnno = fullfile(datasetPath, 'annotations');
 numTrk = length(trackers);
