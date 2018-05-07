@@ -144,6 +144,9 @@ References
 -----------------------------------------------------------------
 Version History
 
+1.0.2 - May 7, 2018
+  - Fix the bugs in the main_running and perPlot functions.
+  
 1.0.1 - May 3, 2018
   - Fix the bug in the genPerfMat function.
   
