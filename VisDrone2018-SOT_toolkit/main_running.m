@@ -44,8 +44,16 @@ for idxSeq = 1:length(seqs)
     [imgH, imgW, ~] = size(img);
     
     rect_anno = dlmread([pathAnno '\' s.name '.txt']);
-    numSeg = 20;    
-    [subSeqs, subAnno] = splitSeqTRE(s,numSeg,rect_anno);
+    if(size(rect_anno,1)>1)
+        numSeg = 20;    
+        [subSeqs, subAnno] = splitSeqTRE(s,numSeg,rect_anno);
+    else
+        s.annoBegin = 1;
+        s.startFrame = 1;
+        s.init_rect = rect_anno;
+        subSeqs{1} = s;
+        subAnno{1} = rect_anno;
+    end
     
     switch evalType
         case 'SRE'
